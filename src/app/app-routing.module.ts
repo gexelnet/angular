@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
+import { BlogsComponent } from './blogs/blogs.component';
+
 const routes: Routes = [
+
+  { path: 'blog', component: BlogsComponent },
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'blog',
     pathMatch: 'full'
   },
-  {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  }
+
 ];
 
 @NgModule({
@@ -19,4 +20,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
