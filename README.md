@@ -14,4 +14,4 @@ If you want to use the product for commercial purposes email me at info@gexl.eu
 to obtain the appropriate licence. The price for the commercial licence is currently
 set to €10. 
 
-https://web.archive.org/web/20230217050331/http://thedietician.net/blog
+https://web.archive.org/web/20230217050331/http://thedietician.net
