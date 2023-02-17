@@ -6,7 +6,7 @@ This is a complete template to code an Angular application.
 
 Please note that the code, content and assets are copyrighted material of Solon Papageorgiou.
 
-However, feel free to study the code, modify it and create your own Cordova application,
+However, feel free to study the code, modify it and create your own Angular application,
 provided that you want to use it for non-commercial purposes. For such purposes the 
 product is free.
 
